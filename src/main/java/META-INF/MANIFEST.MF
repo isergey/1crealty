@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Class-Path: javax.annotation.jar gmbal-api-only.jar ha-api.jar jaxws-a
+ pi.jar jaxb-api.jar FastInoset.jar jsr181-api.jar management-api.jar 
+ mimepull.jar saaj-api.jar mail.jar saaj-impl.jar stax-ex.jar stax2-ap
+ i.jar policy.jar streambuffer.jar jaxb-impl.jar woodstox-core-asl.jar
+  jaxws-tools.jar jaxb-xjc.jar jaxws-rt.jar
+Main-Class: soap.RealtySoapService
+
