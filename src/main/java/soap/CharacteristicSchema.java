@@ -1,6 +1,6 @@
 package soap;
 
-public class CharacteristicSchema{
+public class CharacteristicSchema {
     private String id;
     private String group;
     private int order;
