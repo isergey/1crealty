@@ -34,8 +34,8 @@ public class RealtySoapService {
     }
 
     @WebMethod
-    public RealtyObject detail(String id) {
-        return new RealtyObject();
+    public DetailInfo detail(String id) {
+        return new DetailInfo();
     }
 
     @WebMethod

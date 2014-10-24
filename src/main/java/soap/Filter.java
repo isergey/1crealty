@@ -3,8 +3,6 @@ package soap;
 import java.util.List;
 
 public class Filter {
-    private String group;
-    private int order;
     private String initial;
     private String input;
     private String fromLabel;
@@ -12,22 +10,6 @@ public class Filter {
     private boolean multiple;
     private List<CharacteristicValues> showOn;
     private List<CharacteristicValues> hideOn;
-
-    public String getGroup() {
-        return group;
-    }
-
-    public void setGroup(String group) {
-        this.group = group;
-    }
-
-    public int getOrder() {
-        return order;
-    }
-
-    public void setOrder(int order) {
-        this.order = order;
-    }
 
     public String getInitial() {
         return initial;
