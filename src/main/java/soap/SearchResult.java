@@ -7,6 +7,8 @@ public class SearchResult {
     private int total;
     private int offset;
     private int limit;
+    private int errorCode;
+    private String errorMessage;
     private List<RealtyObject> objects;
 
     public int getTotal() {
